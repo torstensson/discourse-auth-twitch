@@ -55,7 +55,7 @@ class TwitchAuthenticator < ::Auth::Authenticator
 end
 
 auth_provider :title => 'med Twitch',
-    :message => 'Logga in med Twitch (Se till att popupf&ouml;nster inte &auml;r blockerade).',
+    :message => 'Logga in med Twitch (Se till att popupfönster inte är blockerade).',
     :frame_width => 920,
     :frame_height => 800,
     :authenticator => TwitchAuthenticator.new
