@@ -66,8 +66,4 @@ register_css <<CSS
   background: #6441A5;
 }
 
-.btn-social.twitch:before {
-  content: "\\f1e8";
-}
-
 CSS
